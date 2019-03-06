@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
  <nav>   
     <ul id='navbar'>     
-      <li><a href="#welcome-section">About</a></li>     
-      <li><a href="#projects">Work</a></li>     
+      <li><a href="#welcome-section">Welcome</a></li>     
+      <li><a href="#projects">Social media</a></li>     
       <li><a href="#contact">Contact</a></li>   
     </ul> 
   </nav>
-  <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <section id="welcome-section" class="intro">
+
+        <h1>Hey! We are team!</h1>
+        <p> And we are (future) web developers on Microverse!</p>
+      </section>
+
+      <section id="projects">
+        <h1 class="project-tile">Social media</h1>
+          <a href="http://www.facebook.com" target="_blank" class="dim">
+    <img class="dim" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" alt="project">
+  </a>
+  <a href="http://www.instagram.com" target="_blank" class="project project-tile">
+    <img class="dim" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt="project">
+  </a><br>
+  </a>
+         <a href="http://www.google.com" target="_blank" class="project project-tile">
+    <img class="dim" src="https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_960_720.png" alt="project">
+  </a>
+      
+      </section>
+      <section id="contact">
+          <h1> Contact us...</h1>
+  <div>
+      <div class="dim">
+        <span> <strong>E-mail:</strong> lucy.sh.jang@gmail.com</span>
+       <p><strong>Github profile:</strong></p>
+          <a href="https://github.com/erica3179" target="_blank" class="project project-tile">
+    <img class="dim" src="https://www.freeiconspng.com/uploads/github-circle-mascot-git-icon-6.png" alt="project"></a>
+    </div>
+
+    <div class="dim">
+      <span> <strong>E-mail:</strong> mixypro@yahoo.com</span>
+      <p><strong>Github profile:</strong></p>
+          <a href="https://github.com/mixypro" target="_blank" class="project project-tile">
+    <img class="dim" src="https://www.freeiconspng.com/uploads/github-circle-mascot-git-icon-6.png" alt="project"></a>
+    </div>
+  </div>
+
+      </section>
+<style>
     @media only screen and (max-width: 400px) {
      .body {
        background-color: red;
      }
     }
   </style>
-  </head>
-  <body>
-    
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-      <section id="welcome-section">
-        <h1>Hey i'am Mimic</h1>
-        <p> And i'm web developer!</p>
-      </section>
-
-      <section id="projects">
-        <h1 class="project-tile">Test</h1>
-          <a href="http://www.facebook.com" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" alt="project">
-    <div class="project-title">Tribute Page</div>
-  </a>
-  <a href="http://www.instagram.com" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt="project">
-    <div class="project-title">Tribute Page</div>
-  </a>
-          <a target="_blank" href="https://github.com/erica3179/fcc-test-suite-template" id="profile-link">GitHub</a>
-          <a href="https://www.google.com">google</a>
-      
-      </section>
-
     <script  src="js/index.js"></script>
-  </body>
+
 </html>
